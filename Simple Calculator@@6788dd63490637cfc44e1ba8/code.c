@@ -3,18 +3,19 @@ int main()
 {
     double num1,num2;
     char ch;
-    scanf("%lf %lf %c",&num1,&num2,&ch);
+    scanf("%lf %lf",&num1,&num2);
+    scanf("%c",&ch);
     if(ch=='+'){
-        printf("%lf",num1+num2);
+        printf("%d",num1+num2);
     }
     else if(ch=='-'){
-        printf("%lf",num1-num2);
+        printf("%d",num1-num2);
     }
     else if(ch=='*'){
-        printf("%lf",num1*num2);
+        printf("%d",num1*num2);
     }
    else if(ch=='/'){
-        printf("%lf",num1/num2);
+        printf("%d",num1/num2);
     }
     else{
         printf("error");
