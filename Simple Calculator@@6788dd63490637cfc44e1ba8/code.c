@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    double num1,num2;
+    int num1,num2;
     char ch;
-    scanf("%d %d",&num1,&num2);
-    scanf("%c",&ch);
+    scanf("%d %d %ch",&num1, &num2, &ch);
     if(ch='+'){
         printf("%d",num1+num2);
     }
