@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main
 {
-    float a,b,c,sum;
+    float a,b,c;
+    float sum;
     scanf("%f",&a);
     scanf("%f",&b);
     scanf("%f",&c);
