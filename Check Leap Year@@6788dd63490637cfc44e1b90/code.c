@@ -11,6 +11,14 @@ int main()
             printf("Not a Leap Year");
         }
     }
+    else if(y%100!=0){
+        if(y%4==0){
+            printf("Leap Year");
+        }
+        else{
+            printf("Not a Leap Year");
+        }
+    }
     else{
         printf("Not a Leap Year");
     }
