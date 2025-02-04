@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    float a,b;
-    scanf("%f %f",&a,&b);
+    int a,b;
+    scanf("%d %d",&a,&b);
     if(a>b){
-        printf("%f",a);
+        printf("%d",a);
     }
     else{
-        printf("%f",b);
+        printf("%d",b);
     }
     return 0;
 }
