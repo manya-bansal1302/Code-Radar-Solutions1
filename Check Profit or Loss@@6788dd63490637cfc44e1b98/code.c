@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int cp,sp;
-    scanf(%d %d,&cp,&sp);
+    float cp,sp;
+    scanf(%f %f,&cp,&sp);
     if(cp>sp){
         printf("Loss");
     }
