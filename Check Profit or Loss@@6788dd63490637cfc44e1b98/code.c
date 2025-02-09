@@ -2,7 +2,7 @@
 int main()
 {
     float cp,sp;
-    scanf(%f %f,&cp,&sp);
+    scanf("%f %f",&cp,&sp);
     if(cp>sp){
         printf("Loss");
     }
