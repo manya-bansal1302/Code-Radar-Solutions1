@@ -12,12 +12,8 @@ int main()
             printf("Not Sorted");
             break;
         }
-        else{
-            continue;
-        }
-
     }
-    if(i==N){
+    if(i==N-1){
         printf("Sorted");
     }
     return 0;
