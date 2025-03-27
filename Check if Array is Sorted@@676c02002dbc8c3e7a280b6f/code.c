@@ -17,7 +17,7 @@ int main()
         }
 
     }
-    if(i==N){
+    if(i==N-1){
         printf("Sorted");
     }
     return 0;
